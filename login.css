@@ -1,0 +1,40 @@
+*
+{
+    text-align: center;
+}
+section{
+    display: inline-block;
+    margin: 35vh 45vw;
+    background-color:rgba(127, 255, 212, 0.566);
+    text-align: center;
+    padding :20px;
+    padding-top: 10px;
+    border-radius: 25px;
+    border: 2px groove aquamarine;
+    box-shadow: 2px 2px 15px rgb(50, 228, 168) ;
+
+}
+input{
+    border-radius: 9px;
+    margin-top: 10px;
+    background-color: rgba(80, 225, 213, 0.491);
+    
+}
+input[type="radio"] + label
+{
+    margin-right: 5px;
+}
+input[type="radio"]:checked + label
+{
+   
+    color: rgb(72, 210, 210);
+    margin-right: 5px;
+}
+button{
+    display: inline-block;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: aquamarine;
+    color: rgba(15, 105, 81, 0.895);
+    border-radius: 3px 15px 3px 15px;
+}

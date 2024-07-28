@@ -1,0 +1,7 @@
+div{
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    box-shadow: -2px 2px 5px yellowgreen;
+    margin: 50vh auto;
+}

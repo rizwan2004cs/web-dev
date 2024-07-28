@@ -1,0 +1,25 @@
+/*qs1 div{
+    height: 150px;
+    width:300px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-right: 2em;
+    padding: 1em;
+} */
+ /* qs2div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+ } */
+  ul{
+    text-align: right;
+  }
+  ul>li{
+    display: inline-block;
+    margin: 10px ;
+    text-align: right;
+  }

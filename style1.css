@@ -1,0 +1,49 @@
+.head1
+{
+    letter-spacing: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+.head0
+{
+    text-align: left;
+    text-decoration: red wave;
+    font-family: edu, Haettenschweile, ,impact,'Arial Narrow Bold', sans-serif;
+}
+.head1
+{
+    text-align: right;
+    font-weight: 400;
+    text-decoration: wavy red underline;
+}.head2
+{
+    text-align: center;
+    text-decoration: double blue overline;
+}
+.head3
+{
+    text-align: justify;
+}
+.para3{
+    font-size: 20px;
+    line-height: 40px;
+}
+.para4
+{
+    text-align: justify;
+    font-weight:500;
+    letter-spacing:10px;
+    line-height: 30px;
+}
+.new
+{
+    font-family: League spartan;
+    color:#ffa511;
+    text-align: center;
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 2px;
+    line-height: 2*normal;
+    text-decoration: double teal underline;
+    text-transform: uppercase;
+}

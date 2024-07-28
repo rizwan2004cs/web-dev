@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+    text-decoration: wavy rgb(54, 35, 35) underline;
+}
+#container{
+    width:80%;
+    height: 900px;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: flex-end;
+    
+    /* flex-wrap: wrap;  */
+    align-items: flex-end;
+    align-content:space-between;
+}
+div
+{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    
+}
+
+#v{
+    background-color: violet;
+}
+#i
+{
+    background-color: indigo;
+    align-self: center;
+    /* flex: 2 2 90px; */
+    flex: 2 90px;
+    /* flex-basis: 90px; */
+    /* flex-shrink: 2; */
+}
+#b
+{
+    background-color: blue;
+    height: 75px;
+    /* flex-grow: 1; */
+}
+#g
+{
+    background-color: green;
+    align-self: center;
+    /* flex-grow: 2; */
+    max-height: 100px;
+}
+#y
+{
+    background-color: yellow;
+}
+#o
+{
+    background-color: orange;
+    height: 125px;
+    font-size: 3.5em;
+    align-self: baseline;
+    flex-shrink: 3;
+}
+#r
+{
+    background-color: red;
+}

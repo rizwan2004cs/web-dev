@@ -1,0 +1,9 @@
+h2{
+    display: inline;
+    background-color: yellowgreen;
+}
+span
+{
+    display: block;
+    background-color: yellow;
+}

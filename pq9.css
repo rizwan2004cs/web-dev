@@ -1,0 +1,14 @@
+div
+{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    height: 25px;
+    width: 50px;
+    padding: 50px;
+    margin: 10px;/*for inline elements margin and padding will be set from right and left not on botton amd top */
+    display: inline-block;
+}
+#tird
+{
+    display: none;
+}

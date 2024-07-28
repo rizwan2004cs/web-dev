@@ -1,0 +1,77 @@
+div
+{
+    background-color: hotpink;
+    font-size: 1em;
+    height: 100px;
+    width: 100px;
+    /* animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colwidAnimate 2s ease-in-out 0s infinite alternate;
+}
+
+@keyframes colwidAnimate
+{
+    0%
+    {
+        background-color: hotpink;
+        width:100px ;
+        height: 100px;
+    }
+    50%
+    {
+        background-color: gold;
+        width: 200px;
+        height: 200px;
+    }
+    80%
+    {
+        background-color: goldenrod;
+        width: 400px;
+        height: 400px;
+    }
+    100%
+    {
+        background-color: green;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@keyframes fontAnimate
+{
+    from
+    {
+        font-size: 30px;
+    }
+    to
+    {
+        font-size: 50px;
+    }
+}
+
+@keyframes colorAnimate
+{
+    from
+    {
+        background-color: yellow;
+    }
+    to
+    {
+        background-color: yellowgreen;
+    }
+}
+@keyframes widthAnimate
+{
+    from
+    {
+        width: 200px;
+    }
+    to
+    {
+        width: 700px;
+    }
+}

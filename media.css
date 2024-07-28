@@ -1,0 +1,25 @@
+h1{
+    width: 100vw;
+    height: 70px;
+    background-color: hotpink;
+
+}
+@media (    min-width:700px)
+ {
+    h1{
+       
+        background-color: red;
+        text-transform: uppercase;
+        color: aliceblue;
+    }
+}
+
+@media (orientation:portrait) {
+ 
+    h1{
+       
+        background-color: red;
+        text-transform: uppercase;
+        color: aliceblue;
+    }
+}
