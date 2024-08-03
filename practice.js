@@ -10,7 +10,7 @@ try{
     console.log(course);
 }
 catch(err){
-    console.log("Trying to access the var variable outside the block "+err.message);
+    console.log("Trying to access the var variable outside the function "+err.message);
 }
 
 
